@@ -14,7 +14,7 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
-        throw Exception("Resource not found");
+        throw new Exception("Resource not found");
     }
 }
 
